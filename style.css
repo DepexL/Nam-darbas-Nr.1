@@ -1,5 +1,12 @@
-* {
+#main-content {
+    background: white;
+    padding: 3rem 2rem;
+    min-height: 100vh;
 
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -66,11 +73,20 @@ nav {
 }
 
 start button {
+    display: block;
     padding: 0.75rem 1.5rem;
     font-size: 1.1rem;
-    
     border: white solid 2px;
     border-radius: 4px;
     cursor: pointer;
-    transition: background 0.2s;
+    margin: 0 auto;
 }
+
+.start-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
