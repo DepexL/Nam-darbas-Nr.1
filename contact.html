@@ -14,8 +14,39 @@
             <a href="index.html">Pagrindinis</a>
             <a href="product.html">Produkcija</a>
             <a href="contact.html">Kontaktai</a>
-            
         </div>  
     </nav>
+
+    <section class="formInfo">
+        <h2>Susisiekimas</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Vardas:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">El. paštas:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Žinutė:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Siųsti</button>
+    </section>
+
+
+    <section class="contactInfo">
+        <div class="contact-container">
+            <div class="contact-details">
+                <h2>Kontaktai</h2>
+                <p>Vadras, pavarde: Lorem ipsum</p>
+                <p>telefonas: +370 600 12345</p>
+                <p>Email: Loremipsum@santechnika.lt</p>
+            </div>
+            <img src="img/human.jpg" alt="Human" class="contact-image">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Santechnika. All rights reserved.</p>
+    </footer>
 </body>
 </html>
