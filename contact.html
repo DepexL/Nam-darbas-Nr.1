@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="lt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav>
-        <img src="img/Logo.png" alt="Logo" class="logo-black">
+        <img src="img/Logo.png" alt="Logotipas" class="logo-black">
         <div class="navbar-links">
             <a href="index.html">Pagrindinis</a>
             <a href="product.html">Produkcija</a>
@@ -17,9 +17,10 @@
         </div>  
     </nav>
 
-    <section class="formInfo">
+    <main>
+        <section class="formInfo">
         <h2>Susisiekimas</h2>
-        <form action="submit_form.php" method="post">
+        <form>
             <label for="name">Vardas:</label>
             <input type="text" id="name" name="name" required>
 
@@ -30,6 +31,7 @@
             <textarea id="message" name="message" rows="5" required></textarea>
 
             <button type="submit">Siųsti</button>
+            </form> 
     </section>
 
 
@@ -44,6 +46,8 @@
             <img src="img/human.jpg" alt="Human" class="contact-image">
         </div>
     </section>
+    </main>
+    
 
     <footer>
         <p>&copy; 2024 Santechnika. All rights reserved.</p>

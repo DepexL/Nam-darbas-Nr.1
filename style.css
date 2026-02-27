@@ -13,7 +13,7 @@ body {
     overflow-x: hidden;
 }
 
-start img {
+.start-container img {
     filter: blur(6px);
     width: 100vw;
     height: 100vh;
@@ -71,7 +71,7 @@ nav {
     min-width: 0;
 }
 
-start button {
+.start-container button {
     display: block;
     padding: 0.75rem 1.5rem;
     font-size: 1.1rem;
@@ -142,6 +142,8 @@ footer {
 
 /* Second page styles - contact */
 
+
+
 .contactInfo p {
     margin-left: 18px;
 }
@@ -165,6 +167,8 @@ footer {
     margin-left: 16px;
 }
 
+
+
 .contactInfo {
     margin-top: 10vh;
     margin-bottom: 2rem;
@@ -179,6 +183,10 @@ button {
     display: block;
     border: black solid 2px;
     width: 300px;
+}
+
+.formInfo h2 {
+    text-align: center;
 }
 
 label {
