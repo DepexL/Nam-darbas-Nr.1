@@ -140,6 +140,8 @@ footer {
     padding: 1rem 0;
 }
 
+/* Second page styles - contact */
+
 .contactInfo p {
     margin-left: 18px;
 }
@@ -205,3 +207,45 @@ input, textarea{
         width: 90%;
     }
 }
+
+/* Last page Styles - products*/
+.product-section h2 {
+    text-align: center;
+}
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.product-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+}
+
+.product-info {
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.product-info ul {
+    margin: 0;
+    padding-left: 1.2em;
+}
+
+main {
+    min-height: 85vh;
+}
+
