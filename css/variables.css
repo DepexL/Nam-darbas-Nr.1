@@ -1,0 +1,38 @@
+:root {
+    /* Pagrindinės spalvos */
+    --main-color: #0074d9;
+    --bg-color: #ffffff;
+    --text-color: #222222;
+    --btn-color: #4CAF50;
+
+    /* Navigacijos spalvos */
+    --nav-bg: #ffffff;
+    --nav-link-color: #222222;
+    --nav-link-hover: #0074d9;
+
+    /* Lentelės spalvos */
+    --table-header-bg: rgb(135, 187, 222);
+    --table-odd-row: rgb(22, 206, 175);
+    --table-last-row: rgb(135, 187, 222);
+    --table-hover: rgb(82, 226, 255);
+
+    /* Footer */
+    --footer-bg: #222222;
+    --footer-color: #ffffff;
+
+    /* Šriftai */
+    --font-main: Arial, Helvetica, sans-serif;
+    --font-size-base: 1rem;
+    --font-size-nav: 1.1rem;
+
+    /* Tarpai */
+    --padding-small: 0.5rem;
+    --padding-medium: 1rem;
+    --padding-large: 2rem;
+
+    /* Dark mode spalvos */
+    --dark-bg: #111111;
+    --dark-nav: #222222;
+    --dark-content: #1a1a1a;
+    --dark-text: #ffffff;
+}
